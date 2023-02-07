@@ -4,9 +4,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  height: 100%;
+  font-family: 'Codec Pro';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,4 +13,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: local('Codec Pro Extra Bold'), local('Codec-Pro-Extra-Bold'),
+      url('./font/codec/CodecPro-ExtraBold.woff2') format('woff2'),
+      url('./font/codec/CodecPro-ExtraBold.woff') format('woff'),
+      url('./font/codec/CodecPro-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
 }
