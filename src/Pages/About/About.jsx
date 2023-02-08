@@ -21,12 +21,15 @@ const About = () => {
 
     return (
         <div className="bg-violeta-800">
-            <div ref={aboutOne} className="flex flex-col justify-center h-screen items-center">
-                <div className="w-[41%]">
-                    <p className="text-white text-6xl text-center leading-[108%]"><span className="text-verde-100">Flex</span><span className="text-violeta-100">Boi</span> es una startup dedicada a aquellos comercios que buscan realizar las entregas de sus paquetes en el <span className="text-verde-100">menor tiempo posible</span>, ofreciendo un servicio de <span className="text-verde-100">primera calidad</span> a un <span className="text-verde-100">bajo costo</span>.</p>
-                </div>
+            
+            <div className="h-screen flex flex-col items-center justify-center">
+                <div ref={aboutOne} className="flex flex-col justify-center h-screen items-center">
+                    <div className="w-[41%]">
+                        <p className="text-white text-6xl text-center leading-[108%]"><span className="text-verde-100">Flex</span><span className="text-violeta-100">Boi</span> es una startup dedicada a aquellos comercios que buscan realizar las entregas de sus paquetes en el <span className="text-verde-100">menor tiempo posible</span>, ofreciendo un servicio de <span className="text-verde-100">primera calidad</span> a un <span className="text-verde-100">bajo costo</span>.</p>
+                    </div>
+                </div>  
                 <ScrollDownButton scroll={aboutTwo}/>
-            </div>  
+            </div>
 
             <div className="h-screen flex flex-col items-center justify-center">
                 <div ref={aboutTwo} className="flex h-screen items-center justify-center gap-60">
