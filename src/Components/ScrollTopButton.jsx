@@ -12,7 +12,7 @@ const ScrollTopButton = ({scroll}) => {
     }
 
     return(
-        <div className="absolute">
+        <div>
             <button className="text-white hover:text-verde-100" onClick={() => scrollToSection(scroll)}><MdKeyboardArrowUp className="w-[7rem] h-[7rem]"/></button>
         </div>
     )

@@ -12,7 +12,7 @@ const ScrollDownButton = ({scroll}) => {
     }
 
     return(
-        <div className="">
+        <div>
             <button className="text-white hover:text-verde-100" onClick={() => scrollToSection(scroll)}><MdKeyboardArrowDown className="w-[7rem] h-[7rem]"/></button>
         </div>
     )
