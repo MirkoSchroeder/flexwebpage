@@ -4,7 +4,7 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     screens: {
-      'xs': {'min':'320px', 'max': '425px'},
+      'xs': {'min':'319px', 'max': '639px'},
       ...defaultTheme.screens,
     },
     extend: {
