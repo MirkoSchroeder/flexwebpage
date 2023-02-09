@@ -41,7 +41,7 @@ const About = () => {
                 <div className="flex justify-center 2xl:flex-row 2xl:h-screen 2xl:items-center 2xl:gap-60 2xl:pt-0 xl:flex-row xl:h-screen xl:items-center xl:gap-60 xl:pt-0 xs:flex-col xs:pt-[20%] md:flex-col md:pt-[20%]">
                     <div className="2xl:w-[35%] 2xl:items-start xl:w-[35%] xl:items-start xs:flex xs:flex-col items-center md:flex md:flex-col ">
                         <p className="2xl:text-9xl xl:text-9xl text-violeta-100 xs:text-7xl md:text-7xl">APP</p>
-                        <p className="text-4xl text-white mt-[8%] 2xl:px-0 xl:px-0 xs:text-center xs:px-[4%] md:text-center md:px-[4%] 2xl:text-start xl:text-start">Para facilitar el proceso de carga de paquetes y hacer todo mas sencillo.</p>
+                        <p className="text-4xl text-white mt-[8%] 2xl:px-0 xl:px-0 xs:text-center xs:px-[4%] md:text-center md:px-[4%] 2xl:text-start xl:text-start">Para facilitar el proceso de carga de paquetes y hacer todo más sencillo.</p>
                     </div>
                     <div className="xs:mt-[10%] xs:flex xs:justify-center md:mt-[10%] md:flex md:justify-center 2xl:mt-0 xl:mt-0">
                         <img className="2xl:w-[35rem] xl:w-[28rem] rounded-[3rem] xs:w-[80%] md:w-[50%]" src={AppImage} alt="App"></img>
@@ -63,9 +63,9 @@ const About = () => {
                     <div className="h-[50%] 2xl:w-[30%] 2xl:flex 2xl:items-start xl:w-[30%] xl:flex xl:items-center xs:flex xs:flex-col xs:items-center md:flex md:flex-col md:items-center">
                         <p className="text-verde-100 2xl:text-9xl xl:text-8xl xs:text-6xl md:text-6xl">Beneficios</p>
                         <ul className="text-white 2xl:text-3xl 2xl:px-0 xl:text-3xl xl:px-0 list-disc mt-[10%] xs:text-2xl xs:px-[10%] md:text-2xl md:px-[10%]">
-                            <li className="mb-[3%]">Entregas en el dia.</li>
-                            <li className="mb-[3%]">Ahorrar tiempo y recursos a traves de la digitalizacion (APP).</li>
-                            <li className="mb-[3%]">Ayudar a cualquier tipo de comercio en la distribucion de sus paquetes. </li>
+                            <li className="mb-[3%]">Entregas en el día.</li>
+                            <li className="mb-[3%]">Ahorrar tiempo y recursos a través de la digitalización (APP).</li>
+                            <li className="mb-[3%]">Ayudar a cualquier tipo de comercio en la distribución de sus paquetes. </li>
                             <li>Servicio Low Cost.</li>
                         </ul>
                     </div>
@@ -88,10 +88,10 @@ const About = () => {
                     <div className="flex justify-center 2xl:flex-row 2xl:items-center 2xl:gap-60 xl:flex-row xl:items-center xl:gap-60 xs:flex-col md:flex-col">
                         <div className="tracking-wide 2xl:w-[40%] 2xl:px-0 2xl:text-start 2xl:items-start xl:w-[40%] xl: xl:px-0 xl:text-start xl:items-start xs:flex xs:flex-col xs:items-center xs:text-center xs:px-[10%] md:flex md:flex-col md:items-center md:text-center md:px-[10%]">
                             <p className="2xl:text-8xl xl:text-7xl xl:mt-[4%] text-violeta-100 xs:text-6xl md:text-6xl">Nuestro Servicio</p>
-                            <p className="2xl:text-3xl xl:text-2xl xl:mt-[4%] text-white mt-[6%] xs:text-2xl md:text-2xl">Como empresa de logística y tecnología buscamos lo mejor para nuestros clientes.</p>
-                            <p className="2xl:text-3xl xl:text-2xl xl:mt-[4%] text-white mt-[6%] xs:text-2xl md:text-2xl">Priorizando una entrega efectiva de sus paquetes en el mismo día, ofreciendo un excelente servicio, facilitándolo mediante el uso de nuestra aplicación y a su vez cuidando su bolsillo con tarifas low cost.</p>
-                            <p className="2xl:text-3xl xl:text-2xl xl:mt-[4%] text-white mt-[6%] xs:text-2xl md:text-2xl">Nuestra aplicación es la base del servicio. En ella el comercio adherido podrá cargar todos sus pedidos del día y de esta manera se optimiza el proceso de envío</p>
-                            <p className="2xl:text-3xl xl:text-2xl xl:mt-[4%] text-white mt-[6%] xs:text-2xl md:text-2xl">Los pedidos cargados se le asignaran automáticamente a un cadete el cual pasará a buscar sus paquetes en horarios preestablecidos.</p>
+                            <p className="2xl:text-3xl xl:text-xl xl:mt-[4%] text-white mt-[6%] xs:text-2xl md:text-2xl">Como empresa de logística y tecnología buscamos lo mejor para nuestros clientes.</p>
+                            <p className="2xl:text-3xl xl:text-xl xl:mt-[4%] text-white mt-[6%] xs:text-2xl md:text-2xl">Priorizando una entrega efectiva de sus paquetes en el mismo día, ofreciendo un excelente servicio, facilitándolo mediante el uso de nuestra aplicación y a su vez cuidando su bolsillo con tarifas low cost.</p>
+                            <p className="2xl:text-3xl xl:text-xl xl:mt-[4%] text-white mt-[6%] xs:text-2xl md:text-2xl">Nuestra aplicación es la base del servicio. En ella el comercio adherido podrá cargar todos sus pedidos del día y de esta manera se optimiza el proceso de envío</p>
+                            <p className="2xl:text-3xl xl:text-xl xl:mt-[4%] text-white mt-[6%] xs:text-2xl md:text-2xl">Los pedidos cargados se le asignaran automáticamente a un cadete el cual pasará a buscar sus paquetes en horarios preestablecidos.</p>
                         </div>
                         <div className="xs:mt-[10%] xs:flex xs:justify-center md:mt-[10%] md:flex md:justify-center 2xl:mt-0 xl:mt-0">
                             <img className="2xl:w-[35rem] xl:w-[30rem] rounded-[3rem] xs:w-[80%] md:w-[50%]" src={ServiceImage} alt="App"></img>
@@ -103,7 +103,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div ref={aboutFive} className="justify-center 2xl:h-screen 2xl:pt-0 flex 2xl:flex-row 2xl:gap-20 xl:h-screen xl:pt-0 flex xl:flex-row xl:gap-20 xs:flex-col xs:items-center xs:pt-[2%] md:flex-col md:items-center md:pt-[2%]">
+            <div ref={aboutFive} className="justify-center 2xl:h-screen 2xl:pt-0 flex 2xl:flex-row 2xl:gap-20 xl:h-screen xl:pt-0 xl:flex-row xl:gap-20 xs:flex-col xs:items-center xs:pt-[2%] md:flex-col md:items-center md:pt-[2%]">
                 <div className="w-[50%] h-[70%] 2xl:flex 2xl:border-r-4 2xl:block xl:flex xl:border-r-4 xl:block border-verde-100 flex xs:hidden md:hidden">
                     <div className="flex 2xl:justify-center xl:justify-center items-center pl-[2%] xl:pr-[5%]">
                         <img className="w-[50%]" src={logo} alt="logo" />

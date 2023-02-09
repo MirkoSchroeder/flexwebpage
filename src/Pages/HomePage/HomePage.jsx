@@ -14,9 +14,9 @@ const HomePage = () => {
                 <div className="2xl:w-[25%] xl:w-[40%] xs:w-[100%] xs:text-center xs:mt-[5%] md:w-[100%] md:text-center md:mt-[5%]">
                     <p className="text-white 2xl:text-8xl xl:text-8xl xs:text-6xl xs:px-9 md:text-6xl md:px-9">Entregas en el día</p>
 
-                    <div className="2xl:mt-[20%] 2xl:mt-[20%] xl:mt-[20%] xl:mt-[20%] xs:mt-[15%] md:mt-[15%]">
+                    <div className="2xl:mt-[20%] xl:mt-[20%] xs:mt-[15%] md:mt-[15%]">
                         <Link to={"/about"}>
-                            <button className="2xl:text-3xl xl:text-3xl text-white bg-verde-100 hover:bg-blue-700 w-[50%] 2xl:py-6 2xl:px-4 xl:py-6 xl:px-4 rounded-full focus:outline-none focus:shadow-outline xs:text-2xl xs:py-3 xs:px-3 md:text-2xl md:py-3 md:w-[30%]">Saber más</button>
+                            <button className="2xl:text-3xl xl:text-3xl text-white bg-verde-100 hover:bg-blue-700 w-[50%] 2xl:py-6 2xl:px-4 xl:py-6 xl:px-4 xl:w-[50%] rounded-full focus:outline-none focus:shadow-outline xs:text-2xl xs:py-3 xs:px-3 md:text-2xl md:py-3 md:w-[30%]">Saber más</button>
                         </Link>
                     </div>
                 </div>
