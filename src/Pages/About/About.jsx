@@ -103,37 +103,42 @@ const About = () => {
                 </div>
             </div>
 
-            <div ref={aboutFive} className="justify-center 2xl:h-screen 2xl:pt-0 flex 2xl:flex-row 2xl:gap-20 xl:h-screen xl:pt-0 xl:flex-row xl:gap-20 xs:flex-col xs:items-center xs:pt-[2%] md:flex-col md:items-center md:pt-[2%]">
-                <div className="w-[50%] h-[70%] 2xl:flex 2xl:border-r-4 2xl:block xl:flex xl:border-r-4 xl:block border-verde-100 flex xs:hidden md:hidden">
-                    <div className="flex 2xl:justify-center xl:justify-center items-center pl-[2%] xl:pr-[5%]">
-                        <img className="w-[50%]" src={logo} alt="logo" />
-                        <p className="text-9xl xl:text-8xl text-white">FlexBoi</p>
+            <div ref={aboutFive} className="justify-center 2xl:h-screen 2xl:pt-0 flex 2xl:flex-col 2xl:gap-20 xl:h-screen xl:pt-0 xl:flex-col xl:gap-20 xs:flex-col xs:items-center xs:pt-[2%] md:flex-col md:items-center md:pt-[2%]">
+                <div className="xs:hidden md:hidden 2xl:block xl:block">
+                    <ScrollTopButton scroll={aboutFour} />
+                </div>
+                <div className="xl:flex xl:flex-row gap-10">
+                    <div className="w-[50%] h-[70%] 2xl:flex 2xl:border-r-4 2xl:block xl:flex xl:border-r-4 xl:block border-verde-100 flex xs:hidden md:hidden">
+                        <div className="flex 2xl:justify-center xl:justify-center items-center pl-[2%] xl:pr-[5%]">
+                            <img className="w-[50%]" src={logo} alt="logo" />
+                            <p className="text-9xl xl:text-8xl text-white">FlexBoi</p>
+                        </div>
                     </div>
-                </div>
-                <div className="2xl:hidden xl:hidden border-b-2 border-verde-100 w-[90%] flex flex-col xs:pt-[20%] md:pt-[20%]">
-                    <LogoTextMenu />
-                </div>
-                <div className="h-[50%] 2xl:w-[50%] 2xl:items-start 2xl:pt-0 2xl:flex-col 2xl:pt-0 xl:w-[50%] xl:items-start xl:pt-0 xl:flex-col xl:pt-0 items-center xs:w-[100%] xs:flex xs:flex-col xs:pt-[10%] md:w-[100%] md:flex md:flex-col md:pt-[10%]">
-                    <p className="text-violeta-100 2xl:text-7xl xl:text-7xl xs:text-4xl md:text-4xl">Contáctanos</p>
-                    <ul className="text-white 2xl:px-0 xl:px-0 text-3xl mt-[10%] xs:px-[10%] md:px-[10%]">
-                        <li className="mb-[10%]">+ 54 9 3516 23-5609</li>
-                        <li className="mb-[10%]">Córdoba Capital, Córdoba, Argentina</li>
-                        <li className="mb-[3%]">info@flex-boi.com</li>
-                    </ul>
+                    <div className="2xl:hidden xl:hidden border-b-2 border-verde-100 w-[90%] flex flex-col xs:pt-[20%] md:pt-[20%]">
+                        <LogoTextMenu />
+                    </div>
+                    <div className="h-[50%] 2xl:w-[50%] 2xl:items-start 2xl:pt-0 2xl:flex-col 2xl:pt-0 xl:w-[50%] xl:items-start xl:pt-0 xl:flex-col xl:pt-0 items-center xs:w-[100%] xs:flex xs:flex-col xs:pt-[10%] md:w-[100%] md:flex md:flex-col md:pt-[10%]">
+                        <p className="text-violeta-100 2xl:text-7xl xl:text-7xl xs:text-4xl md:text-4xl">Contáctanos</p>
+                        <ul className="text-white 2xl:px-0 xl:px-0 text-3xl mt-[10%] xs:px-[10%] md:px-[10%]">
+                            <li className="mb-[10%]">+ 54 9 3516 23-5609</li>
+                            <li className="mb-[10%]">Córdoba Capital, Córdoba, Argentina</li>
+                            <li className="mb-[3%]">info@flex-boi.com</li>
+                        </ul>
 
-                    <div className="flex 2xl:gap-x-10 xl:gap-x-10 mt-[6%] xs:gap-x-5 xs:pb-[10%] md:gap-x-5 md:pb-[10%]">
-                        <Link to="https://www.linkedin.com/" target="_blank">
-                            <AiFillLinkedin color="white" size={70}/>
-                        </Link>
-                        <Link to="https://www.instagram.com/flexboi.ar/" target="_blank">
-                            <AiOutlineInstagram color="white" size={70}/>
-                        </Link>
-                        <Link to="https://www.flex-boi.com/" target="_blank">
-                            <TbWorld color="white" size={70}/>
-                        </Link>
-                        <Link to="https://web.whatsapp.com/" target="_blank">
-                            <AiOutlineWhatsApp color="white" size={70}/>
-                        </Link>
+                        <div className="flex 2xl:gap-x-10 xl:gap-x-10 mt-[6%] xs:gap-x-5 xs:pb-[10%] md:gap-x-5 md:pb-[10%]">
+                            <Link to="https://www.linkedin.com/" target="_blank">
+                                <AiFillLinkedin color="white" size={70}/>
+                            </Link>
+                            <Link to="https://www.instagram.com/flexboi.ar/" target="_blank">
+                                <AiOutlineInstagram color="white" size={70}/>
+                            </Link>
+                            <Link to="https://www.flex-boi.com/" target="_blank">
+                                <TbWorld color="white" size={70}/>
+                            </Link>
+                            <Link to="https://web.whatsapp.com/" target="_blank">
+                                <AiOutlineWhatsApp color="white" size={70}/>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

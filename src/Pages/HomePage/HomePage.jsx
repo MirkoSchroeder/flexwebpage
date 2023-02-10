@@ -10,7 +10,6 @@ const HomePage = () => {
     return (
         <div>
             <LogoTextMenu />
-
             <div className="2xl:flex 2xl:flex-row 2xl:justify-around 2xl:items-center 2xl:mt-[5%] xl:flex xl:flex-row xl:justify-around xl:items-center xl:mt-[5%] xs:flex-col xs:mt-0 md:flex-col md:mt-0">
                 <div className="2xl:w-[25%] xl:w-[40%] xs:w-[100%] xs:text-center xs:mt-[5%] md:w-[100%] md:text-center md:mt-[5%]">
                     <p className="text-white 2xl:text-8xl xl:text-8xl xl:text-start xs:text-6xl xs:px-9 md:text-6xl md:px-9">Entregas en el día</p>
