@@ -103,11 +103,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div ref={aboutFive} className="justify-center 2xl:h-screen 2xl:pt-0 flex 2xl:flex-col 2xl:gap-20 xl:h-screen xl:pt-0 xl:flex-col xl:gap-20 xs:flex-col xs:items-center xs:pt-[2%] md:flex-col md:items-center md:pt-[2%]">
-                <div className="xs:hidden md:hidden 2xl:block xl:block">
-                    <ScrollTopButton scroll={aboutFour} />
-                </div>
-                <div className="xl:flex xl:flex-row gap-10">
+            <div ref={aboutFive} className="justify-center 2xl:h-screen 2xl:pt-0 flex 2xl:flex-row 2xl:gap-20 xl:h-screen xl:pt-0 xl:flex-row xl:gap-20 xs:flex-col xs:items-center xs:pt-[2%] md:flex-col md:items-center md:pt-[2%]">
                     <div className="w-[50%] h-[70%] 2xl:flex 2xl:border-r-4 2xl:block xl:flex xl:border-r-4 xl:block border-verde-100 flex xs:hidden md:hidden">
                         <div className="flex 2xl:justify-center xl:justify-center items-center pl-[2%] xl:pr-[5%]">
                             <img className="w-[50%]" src={logo} alt="logo" />
@@ -140,7 +136,6 @@ const About = () => {
                             </Link>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     )
